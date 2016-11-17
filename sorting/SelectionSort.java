@@ -1,15 +1,17 @@
 import java.util.Arrays;
 
 /**
- * Created by Josh Wein
+ * Created by Josh Wein 11/16/2016.
  */
 public class SelectionSort {
+
     public static void main(String[] args) {
         int[] testArray = {5, 2, 7, 1, 3, 5, 4, 2, 17, 9};
-        System.out.println(Arrays.toString(selectionSortGreedy(testArray)));
+        selectionSort(testArray);
+        System.out.println(Arrays.toString(testArray));
     }
 
-    public static int[] selectionSortGreedy(int[] arr) {
+    private static void selectionSort(int[] arr) {
         // iterate up to the second to last element in the array
         for (int i = 0; i < arr.length - 1; i++) {
             int min = i;
@@ -22,7 +24,6 @@ public class SelectionSort {
             }
             swap(i, min, arr);
         }
-        return arr;
     }
 
     private static void swap(int i, int j, int[] arr) {
