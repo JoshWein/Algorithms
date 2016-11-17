@@ -4,7 +4,7 @@
  * @author Josh Wein
  */
 
-public class Main {
+public class BalanceWords {
     public static void main(String[] args) {
         String[] words = {"STEAD", "UNINTELLIGIBILITY", "CONSUBSTANTIATION", "WRONGHEADED", "SUPERGLUE"};
         for (String word : words) {
@@ -28,3 +28,4 @@ public class Main {
         System.out.println(word + " does not balance");
     }
 }
+
