@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * Created by Josh Wein on 11/20/2016.
  * Problem Statement: A derangement is a permutation p of {1,…,n} such that no item is in its proper position, i.e. pi≠i for all 1≤i≤n. derangement Write an efficient backtracking program with pruning that constructs all the derangements of n items.}
  */
-public class Derangement {
+public class Derangements {
     public static void printDerangements(Object[] arr) {
         derange(arr, new LinkedList<>());
     }
