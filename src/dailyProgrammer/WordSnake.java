@@ -1,3 +1,5 @@
+package dailyProgrammer;
+
 import java.util.*;
 public class WordSnake {
 
