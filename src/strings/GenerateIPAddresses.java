@@ -36,7 +36,7 @@ public class GenerateIPAddresses {
                 output.add(cur.predecessor);
                 continue;
             }
-            // Try all permutations attaching strings of size 1 - 3 from the successor string to the predeccesor string
+            // Try all permutations attaching strings of size 1 - 3 from the successor string to the predecessor string
             permCounter = 1;
             while (permCounter <= STACK_SIZE) {
                 if (suc.length() < permCounter) {
